@@ -12,6 +12,7 @@
 
       <nav class="nav-links" aria-label="Navegação principal">
         <a href="#sobre">Sobre</a>
+        <a href="#trilha">Trilha</a>
         <a href="#projetos">Projetos</a>
         <a href="#contato">Contato</a>
       </nav>
@@ -49,6 +50,32 @@
           Sou iniciante na programação e estou começando pela base da web:
           estrutura com HTML, visual com CSS e interações com JavaScript.
         </p>
+      </section>
+
+      <section class="section learning-section" id="trilha">
+        <div class="section-heading">
+          <p class="eyebrow">Minha trilha</p>
+          <h2>O plano é aprender construindo.</h2>
+        </div>
+
+        <ol class="timeline">
+          <li>
+            <strong>HTML</strong>
+            <span>Montar a estrutura das páginas.</span>
+          </li>
+          <li>
+            <strong>CSS</strong>
+            <span>Transformar estrutura em uma interface bonita e responsiva.</span>
+          </li>
+          <li>
+            <strong>JavaScript</strong>
+            <span>Criar interações, regras e pequenos aplicativos.</span>
+          </li>
+          <li>
+            <strong>GitHub</strong>
+            <span>Publicar projetos e montar um histórico real de evolução.</span>
+          </li>
+        </ol>
       </section>
 
       <section class="section projects-section" id="projetos">
@@ -100,7 +127,9 @@
 
     <footer class="site-footer">
       <p>Feito com HTML, CSS e JavaScript.</p>
-      <button class="theme-toggle" type="button">Alternar tema</button>
+      <button class="theme-toggle" type="button" aria-pressed="false">
+        Usar tema escuro
+      </button>
     </footer>
 
     <script src="script.js"></script>

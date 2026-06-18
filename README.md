@@ -23,3 +23,9 @@ Também dá para abrir o arquivo `index.html` diretamente no navegador.
 2. Adicionar seus links reais de contato.
 3. Publicar o projeto no GitHub.
 4. Ativar o GitHub Pages.
+
+## Aula 1
+
+Nesta etapa adicionamos uma seção de trilha de estudos e melhoramos o botão de
+tema. O JavaScript agora usa `localStorage`, que salva uma pequena informação no
+navegador para lembrar a escolha do usuário.
