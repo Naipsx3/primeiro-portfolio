@@ -254,6 +254,23 @@ h3 {
   color: var(--muted);
 }
 
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.project-link {
+  color: var(--primary-dark);
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
+.project-link:hover {
+  color: var(--accent);
+}
+
 .project-card span {
   display: inline-flex;
   margin-top: 10px;
@@ -269,6 +286,22 @@ h3 {
   gap: 24px;
   border-top: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
+}
+
+.contact-section > div:first-child {
+  max-width: 720px;
+}
+
+.contact-text {
+  max-width: 620px;
+  color: var(--muted);
+}
+
+.contact-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: flex-end;
 }
 
 .site-footer {
@@ -310,6 +343,10 @@ h3 {
 
   .project-grid {
     grid-template-columns: 1fr;
+  }
+
+  .contact-actions {
+    justify-content: flex-start;
   }
 
   .timeline {

@@ -29,3 +29,9 @@ Também dá para abrir o arquivo `index.html` diretamente no navegador.
 Nesta etapa adicionamos uma seção de trilha de estudos e melhoramos o botão de
 tema. O JavaScript agora usa `localStorage`, que salva uma pequena informação no
 navegador para lembrar a escolha do usuário.
+
+## Aula 2
+
+Nesta etapa adicionamos links externos para o GitHub e para o projeto publicado.
+No HTML, usamos `target="_blank"` para abrir em nova aba e `rel="noreferrer"`
+para evitar enviar informação da página de origem ao site aberto.
